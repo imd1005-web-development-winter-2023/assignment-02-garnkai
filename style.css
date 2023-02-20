@@ -11,17 +11,50 @@ header{
 }
 
 .headerNav ul{
-  display: flex;
-  flex-direction:row;
-  justify-content: space-between;
+  display: grid ;
+  grid-template-columns: repeat(5, minmax(1rem, 20rem));
+  grid-template-rows: 1fr;
+  gap: 2rem;
   list-style-type: none;
-  flex-grow: 1;
 }
 
-
 .headerNav ul li a{
-  display: flex;
-  padding: 1rem;
   color:#ffffff;
   text-decoration: none;
+}
+
+.headerNav ul li:nth-child(1){
+  grid-column-start: 1;
+  grid-column-end: 2;
+  text-align: center;
+}
+
+.headerNav ul li:nth-child(2){
+  grid-column-start: 2;
+  grid-column-end: 3;
+  text-align: center;
+}
+
+.headerNav ul li:nth-child(3){
+  grid-column-start: 3;
+  grid-column-end: 4;
+  text-align: center;
+}
+
+.headerNav ul li:nth-child(4){
+  grid-column-start: 4;
+  grid-column-end: 5;
+  text-align: center;
+}
+
+.headerNav ul li:nth-child(5){
+  grid-column-start: 5;
+  grid-column-end: 6;
+  text-align: center;
+  color: aquamarine;
+}
+
+.headerNav ul li a:hover{
+  color:#badadd;
+  font-weight:bold;
 }
