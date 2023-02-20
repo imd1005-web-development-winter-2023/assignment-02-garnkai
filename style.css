@@ -5,10 +5,13 @@ header{
   color:#ffffff;
 }
 
+
+
 .header {
   display: grid;
-  grid-template-columns: repeat(5, minmax(1rem, 20rem));
-  grid-template-rows: 2fr 1fr;
+  grid-template-columns: 3rem 1fr;
+  grid-template-rows: 1fr;
+  height: 100%;
   background-color:#004791;
 }
 
@@ -30,7 +33,10 @@ header{
 }
 
 .headerNavTabs ul{
-  gap: 2rem;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(1rem, 20rem));
+  grid-template-rows: 1fr;
+  background-color: #004791;
   list-style-type: none;
 }
 
