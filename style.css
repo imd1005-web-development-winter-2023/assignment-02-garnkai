@@ -3,6 +3,7 @@
 */
 header{
   color:#ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .headerBack {
@@ -35,6 +36,7 @@ header{
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end:2;
+  font-weight: 100;
 }
 
 .headerNavTabs ul{
@@ -93,7 +95,7 @@ header{
 
 .headerNavTabs ul li a:hover{
   color:#badadd;
-  font-weight:bold;
+  text-decoration: underline;
 }
 
 .sr-only {
