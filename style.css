@@ -10,6 +10,9 @@ header{
   display:grid;
   grid-template-rows: 60px;
   grid-template-columns:100%;
+  margin-top:-8px;
+  margin-left:-8px;
+  margin-right:-8px;
   background-color: #004791;
 }
 
@@ -27,6 +30,8 @@ header{
   grid-row-start: 1;
   grid-row-end:2;
   display: flex;
+  margin-top: 8px;
+  margin-left: 8px;
   width: 2.5rem;
   object-fit: cover;
 }
@@ -36,6 +41,8 @@ header{
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end:2;
+  margin-left: 8px;
+  margin-top: 23px;
   font-weight: 100;
 }
 
@@ -111,6 +118,9 @@ header{
 }
 
 .banner {
-  width: 100%;
+  width: 105%;
+  margin-top: -10px;
+  margin-left: -8px;
+  margin-right: -8px;
   height: 2.5rem;
 }
