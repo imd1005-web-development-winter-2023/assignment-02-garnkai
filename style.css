@@ -8,7 +8,7 @@ header{
 
 .headerBack {
   display:grid;
-  grid-template-rows: 60px;
+  grid-template-rows: 90px;
   grid-template-columns:100%;
   margin-top:-8px;
   margin-left:-8px;
@@ -30,8 +30,8 @@ header{
   grid-row-start: 1;
   grid-row-end:2;
   display: flex;
-  margin-top: 8px;
-  margin-left: 8px;
+  margin-top: 12px;
+  margin-left: 12px;
   width: 2.5rem;
   object-fit: cover;
 }
@@ -41,16 +41,36 @@ header{
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end:2;
-  margin-left: 8px;
-  margin-top: 23px;
-  font-weight: 100;
+  margin-left: 12px;
+  margin-top: 27px;
+  font-weight: 350;
+}
+
+.searchBar {
+  display: flex;
+  margin-top: -60px;
+  width: 30%;
+  height: 1.5rem;
+  color:#03a88f;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  margin-left: auto;
+  margin-right: 20px;
+  border: 2px solid #03a88f;
+}
+
+.searchBar p{
+  background-color: #ffffff00;
+  margin-top: auto;
+  margin-left: 10px;
+  font-weight: 500;
 }
 
 .headerNavTabs ul{
   display: grid;
   height: 100%;
   grid-template-columns: repeat(5, auto);
-  grid-template-rows: 1fr;
+  grid-template-rows: 1.4rem;
   background-color: #004791;
   list-style-type: none;
 }
@@ -105,18 +125,6 @@ header{
   text-decoration: underline;
 }
 
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border-width: 0;
-}
-
 .hero{
   display: grid;
   grid-template-columns: 10% 50rem 3fr;
@@ -127,7 +135,7 @@ header{
   grid-row-start: 1;
   grid-row-end: 2;
   width: 105%;
-  margin-top: -10px;
+  margin-top: -16px;
   margin-left: -8px;
   margin-right: -8px;
   position: absolute;
@@ -141,7 +149,7 @@ header{
   grid-column-end: 4;
   width: 105%;
   height: 30rem;
-  margin-top: -25px;
+  margin-top: -31px;
   margin-left: -8px;
   margin-right: -8px;
   object-fit: cover;
@@ -153,17 +161,40 @@ header{
   grid-row-start: 3;
   grid-row-end: 4;
   display:flex;
-  width: 30%;
-  height: 20rem;
-  background-color: #03A88F91;
+  margin-top: 15px;
+  width: 35%;
+  height: 18rem;
+  background-color: #03a88fbe;
+  box-shadow: 2px 2px 7px #021830a8;
   border-radius: 10%;
 }
 
 .heroHours p{
   color: #ffffff;
   align-self: center;
-  margin-left: 10px;
+  margin-left: 23px;
   line-height: 230%;
   font-size: 1.03rem;
+  font-weight: 550;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 2px 2px 3px #021830;
 }
+
+
+
+
+
+
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
