@@ -325,25 +325,46 @@ p {
 }
 
 /*Form*/
+.formHead {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 8rem;
+}
+.formBorder {
+  display: flex;
+  width: 40%;
+  height: 18rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  object-fit: contain;
+  position: relative;
+}
+
 .form {
   display:flex;
   width: 40%;
   height: 15rem;
-  margin-top: 8rem;
-  margin-left: auto;
+  margin-top: -17rem;
+  margin-left: 29%;
   margin-right: auto;
   flex-direction: column;
   justify-content: space-between;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color:#004791;
+  position: absolute;
 }
 
 .form button{
   display: flex;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 1rem;
   justify-content: center;
-  height: 2.6rem;
+  height: 2.4rem;
+  font-size: 1.2rem;
+  text-align: center;
 }
 
 .name {
@@ -361,15 +382,6 @@ p {
   margin-right: auto;
 }
 
-.formBorder {
-  display: flex;
-  width: 40%;
-  height: 18rem;
-  margin-top: auto;
-  margin-bottom: auto;
-  object-fit: contain;
-  position: absolute;
-}
 /*Screen reader*/
 .sr-only {
   position: absolute;

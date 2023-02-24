@@ -135,19 +135,22 @@ Website for Sportsplex-->
 
       <!--Form-->
       <section>
+        <h2 class="formHead">Keep up to Date</h2>
+        <img class="formBorder" src="images/outlineBlob.png" alt="Border for form"/>
+        
         <form>
           <div class="form">
-            <img class="formBorder" src="images/outlineBlob.png" alt="Border for form"/>
+          
             <div class="name">
               <label for="firstname">First Name</label>
-              <input type="text" id="firstname" name="firstname"/>
+              <input type="text" id="firstname" name="firstname" autocomplete="firstname" required="required"/>
             </div>
 
             <div class="email">
               <label for="email">Email</label>
-              <input type="text" id="email" name="email"/>
+              <input type="text" id="email" name="email" autocomplete="email" required="required"/>
             </div>
-
+          
             <button class="button" type="submit">Submit</button>
           
           </div>
