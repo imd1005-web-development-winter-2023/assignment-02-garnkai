@@ -179,7 +179,7 @@ p {
   grid-row-end: -1;
   grid-column-start: 1;
   grid-column-end: 4;
-  width: 101.2%;
+  width: 101.4%;
   height: 30rem;
   margin-top: -31px;
   margin-left: -8px;
@@ -324,6 +324,52 @@ p {
   object-fit: cover;
 }
 
+/*Form*/
+.form {
+  display:flex;
+  width: 40%;
+  height: 15rem;
+  margin-top: 8rem;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:#004791;
+}
+
+.form button{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  height: 2.6rem;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.formBorder {
+  display: flex;
+  width: 40%;
+  height: 18rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  object-fit: contain;
+  position: absolute;
+}
 /*Screen reader*/
 .sr-only {
   position: absolute;
