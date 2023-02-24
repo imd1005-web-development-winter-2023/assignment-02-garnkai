@@ -179,7 +179,7 @@ p {
   grid-row-end: -1;
   grid-column-start: 1;
   grid-column-end: 4;
-  width: 101.4%;
+  width: 101.2%;
   height: 30rem;
   margin-top: -31px;
   margin-left: -8px;
@@ -228,7 +228,7 @@ p {
 .aboutText {
   display: flex;
   margin-left: 50px;
-  margin-top: 3rem;
+  margin-top: 6rem;
   flex-direction: column;
   width: 40%;
   height: 17.4rem;
@@ -266,7 +266,8 @@ p {
   width: 40%;
   height: 30rem;
   margin-top: -20rem;
-  margin-left: 60%;
+  margin-left: auto;
+  margin-right: -7px;
   overflow: hidden;
 }
 
@@ -276,7 +277,7 @@ p {
   width: 100%;
   margin-bottom:auto;
   margin-left:auto;
-  margin-right: -4rem;
+  margin-right: -2rem;
   align-self: flex-end;
   object-fit: cover;
 }
@@ -287,7 +288,7 @@ p {
   flex-direction: row;
   width:auto;
   height: 20rem;
-  margin-top: 10rem;
+  margin-top: 17rem;
   margin-left: 50px;
   margin-right: 50px;
 }
@@ -329,7 +330,7 @@ p {
   display: flex;
   width: 100%;
   justify-content: center;
-  margin-top: 8rem;
+  margin-top: 12rem;
 }
 .formBorder {
   display: flex;
@@ -380,6 +381,38 @@ p {
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
+}
+
+/*Footer*/
+.footer{
+  display: flex;
+  flex-direction: column;
+  margin: 10rem -8px -8px -8px;
+  width:101.2%;
+  height: 10rem;
+  background-color: #004791;
+}
+
+.footer p {
+  color: #ffffff;
+}
+
+.footerInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 15px;
+  line-height: 2rem;
+}
+
+.copyright {
+  display:flex;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
 }
 
 /*Screen reader*/
