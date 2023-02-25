@@ -156,76 +156,61 @@ p {
   text-decoration: underline;
 }
 
-.banner {
-  grid-row-start: 1;
-  grid-row-end: 2;
-  width: 100%;
-  margin-top: -16px;
-  margin-left: -8px;
-  margin-right: -8px;
-  position: absolute;
-  height: 2.5rem;
-}
-
 /*Hero*/
 .hero{
-  display: grid;
-  grid-template-columns: 10% 50rem 3fr;
-  grid-template-rows: 30px 60px 3fr 1fr;
-}
-
-.heroFrame{
-  grid-row-start: 2;
-  grid-row-end: -1;
-  grid-column-start: 1;
-  grid-column-end: 4;
-  margin-top: -31px;
-  margin-left: -8px;
-  margin-right: -8px;
-  display:flex;
-  width:101.6%;
-  height:30rem; 
+  display: flex;
+  flex-direction: column;
+  max-width: 110%;
+  height: 32rem;
+  margin: -8px -8px -8px -8px;
   overflow: hidden;
 }
 
+.banner {
+  display: flex;
+  width: 100%;
+  height: 2.5rem;
+  position: absolute;
+}
+
 .heroImg{
-  width: 101%;
-  height: 30rem;;
+  width: 100%;
+  height: 30rem;
   object-fit: cover;
 }
 
 .heroHours {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 3;
-  grid-row-end: 4;
   display:flex;
-  margin-top: -26px;
-  width: 35%;
+  flex-direction: column;
+  width:18rem;
+  height: 22rem;
+  margin-left: 10%;
+  align-items: center;
+}
+
+.heroHours p{
+  display:flex;
+  margin-top: -25rem;
+  width: 18rem;
   height: 18rem;
   background-color: #03a88fbe;
   box-shadow: 2px 2px 7px #021830a8;
   border-radius: 10%;
-}
-
-.heroHours p{
   color: #ffffff;
-  align-self: center;
-  margin-left: 23px;
+  text-justify: center;
   line-height: 230%;
   font-size: 1.03rem;
   font-weight: 550;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-shadow: 2px 2px 3px #021830;
+  text-align: center;
+  align-items: center;
 }
 
+
 .hero button{
-  grid-row-start: -1;
-  grid-row-end: 4;
-  grid-column-start:2;
-  grid-column-end: 3;
-  margin-top: 10px;
-  margin-left: 75px;
+  display: flex;
+  margin-top: 12px;
   align-items: center;
   background-color: #03a88fbe;
   box-shadow: 3px 2px 6px #021830a8;
@@ -392,7 +377,8 @@ p {
 
 /*Footer*/
 .footerBan{
-  width:101.2%;
+  display:flex;
+  max-width: 110%;
   height: 2.5rem;
   margin-left: -8px;
   margin-right: -8px;
@@ -401,16 +387,17 @@ p {
 }
 
 .footerBan img{
-  width: 104%;
+  width: 105%;
   height: 2.5rem;
   margin-left: -2.3rem;
+  margin-right: -10px;
 }
 
 .footer{
   display: flex;
   flex-direction: column;
   margin: -2px -8px -8px -8px;
-  width:101.2%;
+  max-width: 110%;
   height: 10rem;
   background-color: #004791;
 }
