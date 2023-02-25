@@ -205,8 +205,8 @@ p {
   text-shadow: 2px 2px 3px #021830;
   text-align: center;
   align-items: center;
+  justify-content: center;
 }
-
 
 .hero button{
   display: flex;
@@ -375,6 +375,11 @@ p {
   margin-right: auto;
 }
 
+input {
+  border: 1px solid #004791;
+  border-radius: 2px;
+}
+
 /*Footer*/
 .footerBan{
   display:flex;
@@ -422,6 +427,16 @@ p {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 25px;
+}
+
+.logo{
+  display: flex;
+  width: 15rem;
+  height: 4rem;
+  object-fit: contain;
+  margin-top: -9rem;
+  margin-left:auto;
+  margin-right: auto;
 }
 
 /*Screen reader*/
