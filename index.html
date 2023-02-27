@@ -1,29 +1,187 @@
+<!--Kaitlyn Garneau
+IMD 1005A
+Web Development
+Assignment 02
+Website for Sportsplex-->
+
 <!DOCTYPE html>
 <html lang="en-ca">
+
   <head>
-    <!-- Set the page title -->
-    <title>Assignment 02</title>
-
-    <!-- Set the charset we're using to UTF-8 -->
-    <meta charset="UTF-8" />
-
-    <!-- Set the screens default zoom / scale to 1 -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
-    <!-- Specifies the document mode for Internet Explorer -->
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <!-- We are using a CSS Reset file to standardize browser default css -->
-    <link rel="stylesheet" href="reset.css" />
-
-    <!-- This is where all of our awesome CSS code goes -->
+    <title>Nepean Sportsplex</title>
+    <meta charset="utf-8" />
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <!--
 
-      YOU HAVE TO MODIFY THE HTML TO BUILD YOUR AWESOME PAGE
+    <header>
 
-    -->
+      <div class="headerBack">
+
+        <div class="header">
+          <h2 class="headerName">Nepean Sportsplex</h2>
+          <img class="headerLogo" src="images/ottawaLogo.png" alt="City of Ottawa Logo"/>
+        </div> 
+
+        <nav> 
+          <div class="headerNav">
+            <div class="searchBar">
+              <p>Search</p>
+            </div>
+            <div class="headerNavTabs">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Facility</a></li>    
+                <li><a href="#">Athletics</a></li>  
+                <li><a href="#">Aquatics</a></li>  
+                <li><a href="#">Events</a></li>  
+              </ul>  
+            </div>  
+          </div>    
+        </nav> 
+
+      </div>
+
+    </header>
+
+    <main>
+    
+      <h1 class="sr-only">Nepean Sportsplex</h1>
+
+      <!-- Hero -->
+      <section>
+
+        <div class="hero">
+          <img class="banner" src="images/underHead.png" alt="Banner"/>
+          <div class ="heroFrame">
+            <img class="heroImg" src="images/hero.png" alt="Sportsplex Pool"/>
+          </div>
+          <div class="heroHours">
+            <p class="hoursTxt">Sunday : 9:00 am - 5:00 pm
+              <br>Monday : 6:30 am - 9:00 pm
+              <br>Tuesday : 8:00 am - 9:00 pm
+              <br>Wednesday : 6:30 am - 9:00 pm
+              <br>Thursday : 8:00 am - 9:00 pm
+              <br>Friday : 6:30 am - 8:00 pm
+              <br>Saturday : 9:00 am - 7:00 pm</p>
+            <button type="button" class="button">Click to Learn More</button>  
+          </div>
+
+          
+        </div>
+
+      </section>
+
+      <!--Subsection 1 - About the Facility-->
+      <section>
+        
+        <div class="aboutText">
+
+          <h2>The Nepean Sportsplex</h2>
+
+          <p>The Nepean Sportsplex is a multi-purpose facility serving residents and visitors to Ottawa 
+            for over 40 years. The Nepean Sportsplex hosts 30-plus regional, provincial, national and 
+            international sporting events as well as 35 special events per year. Our facility serves 
+            over 1.5 million clients annually.
+            <br> 
+            <br>The Nepean Sportsplex has become known as a top-notch location to hold tradeshows and
+            special events including the annual Christmas craft show.
+            <br>
+            <br>Our Seniors Centre offers activities for retired adults 50+, while the Visual Arts 
+            Centre provides all levels of visual arts programs. General interest programs complete the 
+            options available.</p>
+
+        </div>
+
+        <div class="blobFrame">
+          <img class="blob" src="images/blob1.png" alt="artistic blob"/>
+        </div>
+
+        <img class="outside" src="images/outside.jpg" alt="Outside of Sportsplex"/>
+      </section>
+
+      <!--Subsection 2 - Ammenties-->
+      <section>
+        <div class="ammenSec">
+          <img class="ammenImg" src="images/map.jpg" alt="Map of Nepean Sportsplex"/>
+
+          <div class="ammenties">
+            <h2>The Ammenties</h2>
+            
+            <div class="ammenList">
+              <p>-Aquatic centre
+                <br>-50 metre Olympic pool 
+                <br>-25 metre family pool
+                <br>-Children’s wading pool
+                <br>-Therapeutic whirlpool
+                <br>-Three ice rinks
+                <br>-10 sheet curling centre
+                <br>-3,000 sq. feet weight room 
+                <br>-Fitness centre</p>
+
+              <p>-Four squash courts
+                <br>-Studio
+                <br>-Gymnasium 
+                <br>-Outdoor Sports field 
+                <br>-Two baseball diamonds
+                <br>-Soccer field
+                <br>-Minto sports field turf
+                <br>-Lawn bowling turf and pavilion
+                <br>-Outdoor fitness trails</p>
+            </div>
+
+          </div>
+        
+        </div>
+      </section>
+
+      <!--Form-->
+      <section>
+        <h2 class="formHead">Keep up to Date</h2>
+        <img class="formBorder" src="images/outlineBlob.png" alt="Border for form"/>
+        
+        <form>
+          <div class="form">
+          
+            <div class="name">
+              <label for="firstname">First Name</label>
+              <input type="text" id="firstname" name="firstname" required="required"/>
+            </div>
+
+            <div class="email">
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email" required="required"/>
+            </div>
+          
+            <button class="button" type="submit">Submit</button>
+          
+          </div>
+        </form> 
+      </section>
+    </main>
+
+    <!--Footer-->
+    <footer>
+
+      <h2 class="sr-only">Footer</h2>
+
+      <div class="footerBan">
+        <img src="images/footer.png" alt="footer design"/>
+      </div>
+
+      <div class="footer">
+        <div class="footerInfo">
+          <p>1701 Woodroffe Avenue 
+            <br>Ottawa ON K2G 1W2</p>
+          <p>613-580-2828 
+            <br>nepeansportsplex@ottawa.ca </p>
+        </div>
+          <p class="copyright"> © 2023 Kaitlyn Garneau | All Rights Reserved</p>
+        </div>
+      <img class="logo" src="images/ottawa.png" alt="City of Ottawa Logo" />
+    </footer>
+
   </body>
+
 </html>
